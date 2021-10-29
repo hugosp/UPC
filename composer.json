@@ -1,0 +1,25 @@
+{
+	"name": "root/phpmenu",
+	"require": {
+		"php-school/cli-menu": "^4.1"
+	},
+	"require-dev": {
+		"symfony/var-dumper": "^5.3"
+	},
+	"autoload": {
+		"psr-4": {
+			"UPC\\": "src/"
+		}
+	},
+	"scripts": {
+		"build": [
+			"box compile"
+		]
+	},
+	"authors": [
+		{
+			"name": "hugosp",
+			"email": "stefan.sundell@gmail.com"
+		}
+	]
+}
